@@ -11,7 +11,7 @@ body {
   background-color: rgb(53, 139, 64);
   display: flex;
   justify-content: space-around;
-  padding: 10px;
+  padding: 20px;
   }
 
   .navbar a{
@@ -30,7 +30,137 @@ body {
     justify-content: end;
     align-items: center;
     color: rgb(212, 236, 181);
-    padding-bottom: 4px;
+    padding: 20px;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px;
+    background-color: rgba(206, 238, 191, 0.543);
+    margin-top: 20px;
+}
+.about h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.about p{
+     text-align: start;
+      max-width: 800px;
+      font-size: 16px;
+}
+.hair{
+  padding: 20px;
+}
+ .hair p{
+  max-width: 1000px;
+  text-align: start;
+ }
 
+.hair ul{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+padding: 10px;
+}
 
+.products{
+  padding: 20px;
+}
+
+.products p{
+ max-width: 1000px;
+ text-align: start;
+}
+
+.products ul{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.massage{
+  padding: 20px;
+}
+.massage p{
+  max-width: 1000px;
+  text-align: start;
+}
+.massage ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.product{
+  display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(223, 240, 216, 0.543);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.product h2{
+  text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.product p{
+     text-align: start;
+      max-width: 800px;
+      font-size: 16px;
+      padding-bottom: 10px;
+}
+.product ul{
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.contact{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(224, 236, 220, 0.543);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact h2{
+ margin-bottom: 10px;
+    font-size: 40px;
+}
+.contact p{
+   max-width: 600px;
+   font-size: 16px;
+   
+}
+.contact ul{
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 5px;
+ 
+}
+.order{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(236, 240, 234, 0.543);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.order h2{
+ margin-bottom: 10px;
+    font-size: 40px;
+}
+.order p{
+   max-width: 800px;
+   font-size: 16px;
+   gap: 10px;
 }
